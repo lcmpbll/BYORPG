@@ -1,8 +1,8 @@
-# (Application Name)
+# Bring Your Own RPG
 
 #### (Brief Description of Application)
 
-#### By Seung Lee
+#### By Alex Shevlin, Filmer Tolentino, Jacob Palaoro, Liam Campbell, Sandra Tena, Seung Lee
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@
 * _file-loader_
 * _jest_
 
-## [GitHub Pages Link](https://leark.github.io/template-repo)
+## [GitHub Pages Link](https://leark.github.io/BYORPG)
 ## Description
 
 ## Setup/Installation Requirements
@@ -28,11 +28,11 @@
 1. Open Git Bash if on Windows and terminal if on Mac
 2. Run the command
 
-    ``git clone https://github.com/leark/template-repo.git``
+    ``git clone https://github.com/leark/BYORPG.git``
 
 3. Run the command
 
-    ``cd template-repo``
+    ``cd BYORPG``
 
 4. Run the command
 
@@ -55,7 +55,7 @@
 
 [GNU](/LICENSE-GNU)
 
-Copyright (c) 2022 Seung Lee
+Copyright (c) 2022 Alex Shevlin, Filmer Tolentino, Jacob Palaoro, Liam Campbell, Sandra Tena, Seung Lee
 
 ## Contact Information
 

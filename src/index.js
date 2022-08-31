@@ -5,5 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
 // User Interface Logic
-
-$(document).ready(function () {});
+jQuery(function () {
+  // code for the webpage here
+});
