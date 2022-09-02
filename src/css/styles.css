@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(47, 65, 47);
+}
+
+h3 {
+  text-align: center;
+  color: rgb(198, 198, 198);
+}
+
+.nameInput {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  margin-bottom: 5px;
+}
+
+.coordInput {
+  width: 90px;
+  height: 30px;
+  margin: 5px;
+  margin-bottom: 5px;
+}
+
+#regKnightY {
+  margin-right: 15px;
+}
+
+#pKnightX {
+  margin-left: 15px;
+}
+
+#pKnightY {
+  margin-right: 15px;
+}
+
+#eKnightX {
+  margin-left: 15px;
+}
+
+.createBtn {
+  width: 200px;
+  height: 50px;
+  padding: 0px;
+  margin: 10px;
+  margin-top: 0;
+  border-radius: 20px;
+}
+
+.battlers {
+  width: 150px;
+}
+
+#vs {
+  display: none;
+  color: rgb(198, 198, 198);
+}
+
+.card {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0px auto;
+  margin-top: 10px;
+  color: rgb(198, 198, 198);
+}
+
+.card img {
+  width: 70px;
+  height: 70px;
+}
+
+.regKnight {
+  background-color: rgb(0, 108, 196);
+}
+
+.pKnight {
+  background-color: #6e5247;
+}
+
+.eKnight {
+  background-color: #8d002b;
+}
+
+#displayKnight {
+  min-width: max-content;
+}
+
+.gridSquare {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(115, 138, 115);
+  box-sizing: border-box;
+  border: 2px solid rgb(89, 107, 89);
+  justify-content: center;
+}

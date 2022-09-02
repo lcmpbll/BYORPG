@@ -8,6 +8,19 @@ describe('character', () => {
 
   test('should correctly print name tip fedora', () => {
     const regularKnight = knight(3, 5);
+
+    /*
+    regularKnight = (name) => {
+      return {
+        name,
+        attack,
+        hp,
+        ...tipFedora(name),
+        ...joust(name),
+      };
+    };
+    */
+
     const seung2 = regularKnight('seung2');
     expect(seung2.tipFedora()).toEqual('seung2 tips fedora.');
   });

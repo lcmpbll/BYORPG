@@ -1,4 +1,4 @@
-import { setString } from "./character.js";
+import { setString, changeInt } from "./character.js";
 
 export const storeItem = (prop) => {
   return (value) => ({
@@ -16,20 +16,40 @@ export const storeItem2 = (prop) => {
 };
 
 export const consumeItem = (item, char) => {
-  const heal = char.hp + item.food;
+  const heal = char.hp + item;
   const health = setString('hp')(heal);
-  //  char.setString('food')(-(heal));
   return health(char);
 };
 
-export const useItem = (item, char) => {
-  const usedItem = item.food;
-  const itemUsed = setString('hp')(- (usedItem));
+export const useItem = (char) => {
+  //const usedItem = item;
+  const itemUsed = setString('food')(0);
   return itemUsed(char);
 }
+//Stretch goal find a way to eat partial food.
 
-export const itemConsumed = (item, char) => {
-  consumeItem(item, char);
-  useItem(item, char);
-  return char;
+// export const itemConsumed = (item, char) => {
+//   return (consumeItem) => {
+//     const newChar = consumeItem(item, char);
+//     return (useItem) => {
+//       const character = useItem(newChar);
+//       return character;
+//     }
+   
+//   }
+  
+// };
+
+// export const itemConsumed = (item, char) => {
+//   return () {
+
+//     ...useItem(char),
+//     ...consumeItem(item, char),
+//   }
+// };
+
+export const foodUsed = (item, char) => {
+  const charAte = useItem(char);
+  const itemUsed = consumeItem(item, charAte);
+  return itemUsed;
 }

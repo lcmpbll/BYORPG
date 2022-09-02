@@ -5,7 +5,113 @@
 </head>
 <body>
   <div class="container">
-
+    <div>
+      <h3>Welcome to BYORPG</h3>
+    </div>
+    <div id="createKnights">
+      <div class="row justify-content-center">
+        <input type="text" id="regKnightName" class="nameInput"/>
+        <input type="text" id="poopKnightName" class="nameInput"/>
+        <input type="text" id="enemyKnightName" class="nameInput"/>
+      </div>
+      <div class="row justify-content-center" style="white-space: nowrap;">
+        <input type="number" id="regKnightX" class="coordInput" min="0" max="7" placeholder="X: Coordinate"/>
+        <input type="number" id="regKnightY" class="coordInput" min="0" max="8" placeholder="Y: Coordinate"/>
+        <input type="number" id="pKnightX" class="coordInput" min="0" max="7" placeholder="X: Coordinate"/>
+        <input type="number" id="pKnightY" class="coordInput" min="0" max="8" placeholder="Y: Coordinate"/>
+        <input type="number" id="eKnightX" class="coordInput" min="0" max="7" placeholder="X: Coordinate"/>
+        <input type="number" id="eKnightY" class="coordInput" min="0" max="8" placeholder="Y: Coordinate"/>
+      </div>
+      <div class="row justify-content-center">
+        <button id="addRegKnight" class="createBtn">Create Regular Knight</button>
+        <button id="addPoopKnight" class="createBtn">Create Poop Knight</button>
+        <button id="addEnemyKnight" class="createBtn">Create Enemy Knight</button>
+      </div>
+      <div>
+      </div>
+    </div>
+    <div class="row justify-content-center battleRow">
+      <h3>Battling Knights</h3>
+      <div class="battlers" id="attacker"></div>
+      <span id="vs">VS.</span>
+      <div class="battlers" id="defender"></div>
+      <div class="row justify-content-center">
+        <button class="createBtn" id="battle">Battle!</button>
+      </div>
+    </div>
+    <div id="displayKnight justify-content-center">
+      <h3>Knights on the Board</h3>
+      <div class ="row justify-content-center" id="row0">
+        <div class="gridSquare" id="row0col0"></div>
+        <div class="gridSquare" id="row0col1"></div>
+        <div class="gridSquare" id="row0col2"></div>
+        <div class="gridSquare" id="row0col3"></div>
+        <div class="gridSquare" id="row0col4"></div>
+        <div class="gridSquare" id="row0col5"></div>
+        <div class="gridSquare" id="row0col6"></div>
+        <div class="gridSquare" id="row0col7"></div>
+      </div>
+      <div class ="row justify-content-center" id="row1">
+        <div class="gridSquare" id="row1col0"></div>
+        <div class="gridSquare" id="row1col1"></div>
+        <div class="gridSquare" id="row1col2"></div>
+        <div class="gridSquare" id="row1col3"></div>
+        <div class="gridSquare" id="row1col4"></div>
+        <div class="gridSquare" id="row1col5"></div>
+        <div class="gridSquare" id="row1col6"></div>
+        <div class="gridSquare" id="row1col7"></div>
+      </div>
+      <div class ="row justify-content-center" id="row2">
+        <div class="gridSquare" id="row2col0"></div>
+        <div class="gridSquare" id="row2col1"></div>
+        <div class="gridSquare" id="row2col2"></div>
+        <div class="gridSquare" id="row2col3"></div>
+        <div class="gridSquare" id="row2col4"></div>
+        <div class="gridSquare" id="row2col5"></div>
+        <div class="gridSquare" id="row2col6"></div>
+        <div class="gridSquare" id="row2col7"></div>
+      </div>
+      <div class ="row justify-content-center" id="row3">
+        <div class="gridSquare" id="row3col0"></div>
+        <div class="gridSquare" id="row3col1"></div>
+        <div class="gridSquare" id="row3col2"></div>
+        <div class="gridSquare" id="row3col3"></div>
+        <div class="gridSquare" id="row3col4"></div>
+        <div class="gridSquare" id="row3col5"></div>
+        <div class="gridSquare" id="row3col6"></div>
+        <div class="gridSquare" id="row3col7"></div>
+      </div>
+      <div class ="row justify-content-center" id="row4">
+        <div class="gridSquare" id="row4col0"></div>
+        <div class="gridSquare" id="row4col1"></div>
+        <div class="gridSquare" id="row4col2"></div>
+        <div class="gridSquare" id="row4col3"></div>
+        <div class="gridSquare" id="row4col4"></div>
+        <div class="gridSquare" id="row4col5"></div>
+        <div class="gridSquare" id="row4col6"></div>
+        <div class="gridSquare" id="row4col7"></div>
+      </div>
+      <div class ="row justify-content-center" id="row5">
+        <div class="gridSquare" id="row5col0"></div>
+        <div class="gridSquare" id="row5col1"></div>
+        <div class="gridSquare" id="row5col2"></div>
+        <div class="gridSquare" id="row5col3"></div>
+        <div class="gridSquare" id="row5col4"></div>
+        <div class="gridSquare" id="row5col5"></div>
+        <div class="gridSquare" id="row5col6"></div>
+        <div class="gridSquare" id="row5col7"></div>
+      </div>
+      <div class ="row justify-content-center" id="row6">
+        <div class="gridSquare" id="row6col0"></div>
+        <div class="gridSquare" id="row6col1"></div>
+        <div class="gridSquare" id="row6col2"></div>
+        <div class="gridSquare" id="row6col3"></div>
+        <div class="gridSquare" id="row6col4"></div>
+        <div class="gridSquare" id="row6col5"></div>
+        <div class="gridSquare" id="row6col6"></div>
+        <div class="gridSquare" id="row6col7"></div>
+      </div>
+    </div>
   </div>
 </body>
 </html>

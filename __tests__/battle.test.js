@@ -10,7 +10,8 @@ describe('battle', () => {
     const seung2 = regularKnight('seung2');
     const filmer = poopKnight('filmer');
     const liam = enemyKnight('liam');
-    expect(battle(seung2, liam).hp).toEqual(4);
+    const damagedLiam = battle(seung2, liam);
+    expect(damagedLiam.hp).toEqual(4);
   });
 
   // test('should correctly create a className object using x', () => {

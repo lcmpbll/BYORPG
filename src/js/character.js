@@ -77,22 +77,25 @@ const declareName = (person) => ({
 
 //creates the knight
 export const knight = (attack, hp) => {
+  const iniX = 0;
+  const iniY = 0;
   return (name) => {
     return {
       name,
       attack,
       hp,
+      x: iniX,
+      y: iniY,
       ...tipFedora(name),
       ...joust(name),
     };
-    // return {
-    //   ...tipFedora(character),
-    //   // ...beNice(character),
-    //   ...joust(character),
-    //   // ...loyalty(character),
-    // };
   };
 };
+
+// movement
+const move = (x, y) => ({
+  
+})
 
 //behaviors of the knight
 
