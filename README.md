@@ -1,8 +1,10 @@
 # Bring Your Own RPG
 
-#### (Brief Description of Application)
+#### A Knight vs Knight board game.
 
 #### By Alex Shevlin, Filmer Tolentino, Jacob Palaoro, Liam Campbell, Sandra Tena, Seung Lee
+
+![A screen shot of the loaded app.](/src/img/appScreenShot.png)
 
 ## Technologies Used
 
@@ -22,6 +24,8 @@
 
 ## [GitHub Pages Link](https://leark.github.io/BYORPG)
 ## Description
+
+_This app uses functional programming to have a board of knights and make themm battle for the win. There are three different kind of knights, with different stats, that can battle each other._
 
 ## Setup/Installation Requirements
 
